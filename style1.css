@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+}
+
+
+.big-card1 {
+    height: 250px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    margin-left:-115px;
+    margin-top: -115px;
+    transform: rotate(-15deg);
+    transition: .5s ;
+}
+.big-card-container:hover .big-card1{
+    transform: rotate(-20deg);
+    left: 30%;
+    top:55%;
+
+}
+.big-card-container:hover .big-card2 {
+    transform: rotate(-10deg);
+    left: 45%;
+    top:52%;
+}
+.big-card-container:hover .big-card3 {
+    transform: rotate(10deg);
+    left: 60%;
+    top: 52%;
+}
+.big-card-container:hover .big-card4 {
+    transform: rotate(20deg);
+    left: 75%;
+    top: 55%;
+}
+.big-card2 {
+    height: 200px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    margin-left:-115px;
+    margin-top: -115px;
+    transform: rotate(-10deg);
+    transition: .5s ease;
+}
+.big-card3 {
+    height: 250px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    margin-left:-115px;
+    margin-top: -115px;
+    transform: rotate(-5deg);
+    transition: .5s ease;
+}
+.big-card4 {
+    height: 250px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    margin-left:-115px;
+    margin-top: -115px;
+    transform: rotate(-3deg);
+    transition: .5s ease;
+    
+}
+
+
+
+.small-card1 {
+    height: 100px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    margin-left: -115px;
+    margin-top: -115px;
+    visibility: hidden;
+    transition: .5s ease;
+
+}
+
+.small-card2 {
+    height: 100px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    margin-left: -115px;
+    margin-top: -115px;
+    visibility: hidden;
+    transition: .5s ease;
+}
+
+.small-card3 {
+    height: 100px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    margin-left: -115px;
+    margin-top: -115px;
+    visibility: hidden;
+    transition: .5s ease;
+}
+
+.small-card4 {
+    height: 100px;
+    aspect-ratio: 0.75;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    margin-left: -115px;
+    margin-top: -115px;
+    visibility: hidden;
+    transition: .5s ease;
+
+}
+
+
+.big-card-container:hover .small-card1 {
+    transform: rotate(-20deg);
+    left: 29%;
+    top: 40%;
+    border-radius: 5px;
+    visibility: visible;
+
+}
+
+.big-card-container:hover .small-card2 {
+    transform: rotate(-10deg);
+    left: 50%;
+    top: 33%;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.big-card-container:hover .small-card3 {
+    transform: rotate(10deg);
+    left: 72%;
+    top: 32%;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.big-card-container:hover .small-card4 {
+    transform: rotate(20deg);
+    left: 94%;
+    top: 39%;
+    border-radius: 5px;
+    visibility: visible;
+}
