@@ -12,7 +12,7 @@ body{
     margin-left:-115px;
     margin-top: -115px;
     transform: rotate(-15deg);
-    transition: 5s ;
+    transition: .5s ;
 }
 .big-card-container:hover .big-card1{
     transform: rotate(-20deg);
