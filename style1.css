@@ -155,3 +155,25 @@ body{
     border-radius: 5px;
     visibility: visible;
 }
+
+
+
+.open-btn{
+    position: absolute;
+        top: 80%;
+        left:40%;
+        border-radius: 5px;
+     padding: .3rem;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.close-btn{
+    position: absolute;
+        top: 80%;
+        left: 50%;
+        border-radius: 5px;
+        padding: .3rem;
+        font-weight: bold;
+        cursor: pointer;
+}
