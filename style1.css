@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -36,7 +36,7 @@ body{
     top: 55%;
 }
 .big-card2 {
-    height: 200px;
+    height: 250px;
     aspect-ratio: 0.75;
     position: absolute;
     top: 49%;
@@ -160,7 +160,7 @@ body{
 
 .open-btn{
     position: absolute;
-        top: 60%;
+        top: 70%;
         left:30%;
         border-radius: 5px;
      padding: .3rem;
@@ -170,7 +170,7 @@ body{
 
 .close-btn{
     position: absolute;
-        top: 60%;
+        top: 70%;
         left: 50%;
         border-radius: 5px;
         padding: .3rem;
