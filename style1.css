@@ -142,16 +142,16 @@ body{
 
 .big-card-container:hover .small-card3 {
     transform: rotate(10deg);
-    left: 72%;
-    top: 32%;
+    left: 78%;
+    top: 35%;
     border-radius: 5px;
     visibility: visible;
 }
 
 .big-card-container:hover .small-card4 {
     transform: rotate(20deg);
-    left: 94%;
-    top: 39%;
+    left: 98%;
+    top: 36%;
     border-radius: 5px;
     visibility: visible;
 }
