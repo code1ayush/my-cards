@@ -160,8 +160,8 @@ body{
 
 .open-btn{
     position: absolute;
-        top: 80%;
-        left:40%;
+        top: 70%;
+        left:30%;
         border-radius: 5px;
      padding: .3rem;
      font-weight: bold;
@@ -170,7 +170,7 @@ body{
 
 .close-btn{
     position: absolute;
-        top: 80%;
+        top: 70%;
         left: 50%;
         border-radius: 5px;
         padding: .3rem;
